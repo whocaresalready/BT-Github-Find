@@ -1,9 +1,12 @@
+import UserResults from '../components/users/UserResults'
+import UsersSearch from '../components/users/UsersSearch'
 function Home() {
-  return (
-    <div>
-      Home
-    </div>
-  )
+	return (
+		<>
+			<UsersSearch />
+			<UserResults />
+		</>
+	)
 }
 
 export default Home
